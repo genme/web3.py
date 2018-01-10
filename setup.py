@@ -16,7 +16,7 @@ setup(
     author_email='pipermerriam@gmail.com',
     url='https://github.com/ethereum/web3.py',
     include_package_data=True,
-    dependency_linkgs=[
+    dependency_links=[
         "git+ssh://git@github.com/genme/eth-keys.git@0.1.0-build.2018.01#egg=eth-keys"
     ],
     install_requires=[
