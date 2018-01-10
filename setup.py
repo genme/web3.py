@@ -9,7 +9,7 @@ from setuptools import (
 setup(
     name='web3',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
-    version='4.0.0-build.2018.01.p3',
+    version='4.0.0-build.2018.01.p4',
     description="""Web3.py""",
     long_description_markdown_filename='README.md',
     author='Piper Merriam',
@@ -17,7 +17,7 @@ setup(
     url='https://github.com/ethereum/web3.py',
     include_package_data=True,
     dependency_links=[
-        "git+ssh://git@github.com/genme/eth-keys.git@0.1.0-build.2018.01#egg=eth-keys"
+        "https://github.com/genme/eth-keys/tarball/0.1.0-build.2018.01#egg=eth-keys-0.1.0-build.2018.01"
     ],
     install_requires=[
         "cytoolz>=0.8.2",
